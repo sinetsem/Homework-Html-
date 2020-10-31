@@ -1,0 +1,40 @@
+.grid-container {
+    width: 80%;
+    margin: auto; 
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    /* ================= Your code start here ================ */
+    grid-template-areas: 
+    "item1 item1 item1"
+    "item2 item3 item3"
+    "item2 ... ..."
+    "item2 item6 item6";
+   /* =================== End code ========================== */
+}
+
+.grid-item {
+    padding: 10px;
+    background: #08ac90;
+    font-size: 40px;
+    border: 2px solid;
+}
+.item1 {
+    /* ================= Your code start here ================ */
+    grid-area: item1;
+    /* =================== End code ========================== */
+}
+.item2 {
+    /* ================= Your code start here ================ */
+    grid-area: item2;
+    /* =================== End code ========================== */
+}
+.item3 {
+    /* ================= Your code start here ================ */
+    grid-area: item3;
+    /* =================== End code ========================== */
+}
+.item6 {
+    /* ================= Your code start here ================ */
+    grid-area: item6;
+    /* =================== End code ========================== */
+}

@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+nav {
+   background: #d80abd; 
+}
+
+ul {
+   /* Your code here */
+   display: flex;
+   text-transform: uppercase;
+   margin-top: 0;
+   margin-bottom: 0;
+}
+ul li {
+    /* Your code here */
+    list-style-type: none; 
+    padding: 10px;
+    
+}
+ul li a {
+    /* Your code here */
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    /* Your code here */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 0;
+}
+main {
+    margin-top: 10px;
+    margin-bottom: 10px;
+     /* Your code here */
+    grid-column-start: 1;
+    grid-column-end:5 ;
+      
+}
+table {
+   
+    width: 90%;
+    margin: auto;
+     /* Your code here */
+    border-collapse: collapse;
+}
+th {
+    background: #000;
+    color:#fff;
+}
+tr,th,td {
+    /* Your code here */
+    border: 1.5px solid rgb(165, 164, 164);
+    padding: 10px;
+}
+.box {
+    margin-bottom: 20px;
+    height: 200px;
+    /* Your code here */
+    background-color: rgb(196, 194, 194);
+    width: 400px;
+    background:"https://via.placeholder.com/400x200" ;
+}
+.box img {
+    width: 100%;
+} 

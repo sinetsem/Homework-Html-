@@ -1,0 +1,32 @@
+/* Your style */
+body{
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;   
+}
+table{
+    width: 70%;
+    border: 0.2px solid rgb(235, 223, 223);
+    border-collapse: collapse;   
+}
+caption{
+    background-color: rgb(16, 91, 138);
+    padding: 20px;
+    color: white;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;   
+}
+thead{
+    background-color : rgb(182, 211, 229);
+    color: white;
+    text-transform: uppercase;    
+}
+tr, td, th{
+    border-bottom: 0.2px solid  rgb(245, 240, 240);
+	padding: 10px;
+    text-align: center;
+}
+a{
+    color: blue;
+    font-weight: bold;
+}
